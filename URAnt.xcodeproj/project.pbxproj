@@ -15,6 +15,8 @@
 		A0BABC29228B143B00FBC5E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BABC28228B143B00FBC5E7 /* main.m */; };
 		A0BABC33228B143B00FBC5E7 /* URAntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BABC32228B143B00FBC5E7 /* URAntTests.m */; };
 		A0BABC3E228B143B00FBC5E7 /* URAntUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BABC3D228B143B00FBC5E7 /* URAntUITests.m */; };
+		A9ABEA1B239A38DF00970968 /* ModuleConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = A9ABEA1A239A38DF00970968 /* ModuleConfig.json */; };
+		A9ABEA21239A3B9E00970968 /* URModuleConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ABEA20239A3B9E00970968 /* URModuleConfigParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A0BABC39228B143B00FBC5E7 /* URAntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URAntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BABC3D228B143B00FBC5E7 /* URAntUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URAntUITests.m; sourceTree = "<group>"; };
 		A0BABC3F228B143B00FBC5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ABEA1A239A38DF00970968 /* ModuleConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModuleConfig.json; sourceTree = "<group>"; };
+		A9ABEA1F239A3B9E00970968 /* URModuleConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URModuleConfigParser.h; sourceTree = "<group>"; };
+		A9ABEA20239A3B9E00970968 /* URModuleConfigParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URModuleConfigParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				A0BABC24228B143B00FBC5E7 /* LaunchScreen.storyboard */,
 				A0BABC27228B143B00FBC5E7 /* Info.plist */,
 				A0BABC28228B143B00FBC5E7 /* main.m */,
+				A9ABEA1A239A38DF00970968 /* ModuleConfig.json */,
+				A9ABEA1F239A3B9E00970968 /* URModuleConfigParser.h */,
+				A9ABEA20239A3B9E00970968 /* URModuleConfigParser.m */,
 			);
 			path = URAnt;
 			sourceTree = "<group>";
@@ -236,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BABC26228B143B00FBC5E7 /* LaunchScreen.storyboard in Resources */,
+				A9ABEA1B239A38DF00970968 /* ModuleConfig.json in Resources */,
 				A0BABC23228B143B00FBC5E7 /* Assets.xcassets in Resources */,
 				A0BABC21228B143A00FBC5E7 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BABC1E228B143A00FBC5E7 /* ViewController.m in Sources */,
+				A9ABEA21239A3B9E00970968 /* URModuleConfigParser.m in Sources */,
 				A0BABC29228B143B00FBC5E7 /* main.m in Sources */,
 				A0BABC1B228B143A00FBC5E7 /* AppDelegate.m in Sources */,
 			);
